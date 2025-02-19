@@ -100,8 +100,8 @@ export default function App() {
               </div>
             )
           })}
-          <button className="generate-btn" onClick={generateSchedule}><h6>Generate Schedule</h6></button>
         </section>
+        <button className="generate-btn" onClick={generateSchedule}><h6>Generate Schedule</h6></button>
         <div className="full-line" />
         <section>
           {schedule.length > 0 && (
