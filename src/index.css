@@ -1,0 +1,72 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header,
+main,
+footer {
+    padding: 2rem;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 1px solid var(--color-link-transparent);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.lesson-plan {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.lesson-plan .card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: fit-content;
+}
+
+.topics-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.topics-container div {
+    border-radius: var(--border-radius-small);
+    padding: 0.5rem 1rem;
+}
+
+.generate-btn {
+    padding: 1rem 2rem;
+}
+
+input {
+    max-width: unset !important;
+}
+
+.full-line {
+    height: 1px;
+    background: var(--background-muted);
+}
+
+table {
+    width: 100% !important;
+}
